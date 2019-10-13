@@ -78,11 +78,16 @@ button:hover {
     background-color: rgba(0,136,169,0.8);
 }
 
-.socialIcons {
+div.socialIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIcons a {
     margin: 0;
-    padding: 0 15px 0 0;
-    width: 4%;
-    height: 4%;
+    padding: 0 px 15px 0 0;
+    width: 20%;
+    height: 20%;
 }
 
 .bio {
