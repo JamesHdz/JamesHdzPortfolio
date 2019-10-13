@@ -17,7 +17,7 @@ body {
     background-image: url(images/BG1.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-color: #24252A;
 }
 
@@ -98,9 +98,13 @@ div.socialIcons {
 }
 
 .bio {
-    margin: 180px 0 200px 160px;
+    margin: 100px 0 200px 160px;
     text-align: left;
     width: 40%;
+}
+
+.bio h1 {
+    line-height: 85%;
 }
 .bio p {
     font-size: 25px;
