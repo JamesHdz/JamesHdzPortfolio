@@ -33,7 +33,7 @@ p, li, a, button {
 }
 
 h1 {
-    color: white;
+    color: rgba(0,136,169);
     font-size: 65px;
 }
 
@@ -98,16 +98,30 @@ div.socialIcons {
 }
 
 .bio {
-    margin: 100px 0 200px 160px;
+    margin: 150px 0 200px 160px;
     text-align: left;
     width: 40%;
 }
 
 .bio h1 {
     line-height: 85%;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
 .bio p {
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
-    margin: 30px auto 0 auto;
+    margin: 0;
+}
+
+.bio h2 {
+    margin: 30px 0 20px 0;
+    color: rgba(0,136,169);
+    font-size: 35px;
+}
+
+.bio ul li {
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    padding: 0;
 }
