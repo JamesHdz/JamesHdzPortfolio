@@ -80,19 +80,27 @@ button:hover {
 
 div.socialIcons {
     display: flex;
-    flex-direction: row;
 }
 
-.socialIcons a {
+/* .socialIcons a {
     margin: 0;
-    padding: 0 px 15px 0 0;
-    width: 20%;
-    height: 20%;
+    padding: 0;
+} */
+
+.socialIcons a img {
+    justify-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0 15px 0 0;
+    width: 40%;
+    height: 40%;
 }
 
 .bio {
     margin: 180px 0 200px 160px;
     text-align: left;
+    width: 40%;
 }
 .bio p {
     font-size: 25px;
