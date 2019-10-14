@@ -97,10 +97,19 @@ div.socialIcons {
     height: 30%;
 }
 
-.bio {
+/* .bio {
     margin: 150px 0 200px 160px;
     text-align: left;
     width: 40%;
+} */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio p h1 {
+    flex-direction: column;
 }
 
 .bio h1 {
