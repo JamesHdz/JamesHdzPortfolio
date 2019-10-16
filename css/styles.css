@@ -9,7 +9,7 @@
 }
 
 html {
-    font-family: proxima nova, sans-serif;
+    font-family: "HK Grotesk", "proxima nova", sans-serif;
 }
 
 body {
@@ -65,14 +65,14 @@ header {
     color: #0088a9
 }
 
-button {
+/* button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-}
+} */
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
@@ -80,14 +80,13 @@ button:hover {
 
 .socialIcons {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
 .socialIcons a img {
     padding: 0 15px 0 0;
-    width: 0 auto;
-    height: 30%;
+    width: auto;
+    height: 25px;
 }
 
 .profile {
@@ -108,7 +107,7 @@ button:hover {
     padding: 0;
 }
 .bio p {
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     margin: 0;
 }
@@ -120,7 +119,7 @@ button:hover {
 }
 
 .bio ul li {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 0 20px;
     padding: 0;
 }
